@@ -4,6 +4,8 @@ import { useParams, useNavigate } from "react-router-dom";
 import { GiPriceTag } from "react-icons/gi";
 import { RiDiscountPercentFill } from "react-icons/ri";
 import axios from "axios";
+import { toast } from "react-toastify";
+
 import "./MedicineCard.css";
 
 function MedicineCard({ user }) {
@@ -28,11 +30,11 @@ function MedicineCard({ user }) {
       })
       .then((response) => {
         console.log("Medicine added to cart:", response.data);
-        alert("Medicine added to cart successfully!");
+        toast.success("Medicine added to cart successfully!");
       })
       .catch((error) => {
         console.error("Error adding medicine to cart:", error);
-        alert("Failed to add medicine to cart. Please try again.");
+        toast.error("Failed to add medicine to cart. Please try again.");
       });
 
     setMedAdded(true);
