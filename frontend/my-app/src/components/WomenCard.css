@@ -1,0 +1,182 @@
+/* ========== Base / Desktop ========== */
+
+.women-detail-page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px 16px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.women-detail-container {
+  display: flex;
+  gap: 32px;
+  align-items: flex-start;
+}
+
+.women-detail-container img {
+  width: 360px;
+  max-width: 100%;
+  object-fit: contain;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  background: #fafafa;
+  padding: 12px;
+}
+
+.women-info {
+  flex: 1;
+}
+
+.price-block {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 12px 0 16px;
+  flex-wrap: wrap;
+}
+
+.final-price {
+  font-size: 28px;
+  font-weight: 700;
+  color: #2e7d32;
+}
+
+.mrp-strike {
+  text-decoration: line-through;
+  color: #888;
+  font-size: 16px;
+}
+
+.discount-tag {
+  background: #ffefef;
+  color: #d32f2f;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.you-save {
+  color: #2e7d32;
+  font-weight: 500;
+}
+
+.button-group {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+  flex-wrap: wrap;
+}
+
+.button-group button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.button-group button:first-of-type {
+  background: #2e7d32;
+  color: #fff;
+}
+
+.button-group button:last-of-type {
+  background: #1976d2;
+  color: #fff;
+}
+
+.button-group button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.button-group button:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+}
+
+/* Recommended list */
+.women-recommendation-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.women-recommendation-card {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 12px;
+  text-align: center;
+  cursor: pointer;
+  transition: box-shadow 0.15s, transform 0.15s;
+}
+
+.women-recommendation-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.08);
+}
+
+.women-recommendation-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: contain;
+  margin-bottom: 8px;
+}
+
+/* ========== Large Tablets (≤1024px) ========== */
+@media (max-width: 1024px) {
+  .women-recommendation-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* ========== Tablets (≤768px) ========== */
+@media (max-width: 768px) {
+  .women-detail-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .women-detail-container img {
+    width: 280px;
+  }
+
+  .women-info {
+    width: 100%;
+  }
+
+  .button-group {
+    justify-content: center;
+  }
+
+  .women-recommendation-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ========== Phones (≤480px) ========== */
+@media (max-width: 480px) {
+  .women-detail-page {
+    padding: 16px 12px;
+  }
+
+  .final-price {
+    font-size: 24px;
+  }
+
+  .women-detail-container img {
+    width: 220px;
+  }
+
+  .button-group button {
+    width: 100%;
+  }
+
+  .women-recommendation-list {
+    grid-template-columns: 1fr;
+  }
+}

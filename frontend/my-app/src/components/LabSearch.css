@@ -1,0 +1,83 @@
+.labsearch {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  background-color: #f8f9fa;
+}
+
+.labsearch__input-container {
+  position: relative;
+  width: 60%;
+}
+
+.labsearch__input {
+  width: 100%;
+  padding: 15px 20px;
+  font-size: 18px;
+  font-family: 'Segoe UI', sans-serif;
+  font-style: normal;
+  border: 2px solid #00b894;
+  border-radius: 8px;
+  background-color: white;
+  color: #2d3436;
+  z-index: 2;
+  caret-color: #00b894;
+}
+
+.labsearch__placeholder {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  color: #aaa;
+  text-decoration-color: #00b894;
+  pointer-events: none;
+  z-index: 3;
+  font-family: 'Segoe UI', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.labsearch__placeholder--visible {
+  opacity: 1;
+}
+
+.labsearch__placeholder--hidden {
+  opacity: 0;
+}
+
+.labsearch__try-text {
+  color: #aaa;
+  font-weight: 600;
+}
+
+.labsearch__suggestions {
+  position: absolute;
+  top: 105%;
+  left: 0;
+  right: 0;
+  background:#ddd;
+  border: 1px solid #00b894;
+  border-radius: 4px;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 5;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.labsearch__suggestions li {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.labsearch__suggestions li:hover {
+  background-color:#00b894;
+}
+

@@ -1,0 +1,57 @@
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .form-container {
+    max-width: 90%;
+    margin: 24px auto;
+    padding: 20px 22px;
+    border-radius: 8px;
+  }
+
+  .consult-form label {
+    margin-top: 12px;
+    font-size: 0.95rem;
+  }
+
+  .consult-form input,
+  .consult-form select,
+  .consult-form textarea {
+    padding: 9px;
+    font-size: 0.95rem;
+  }
+
+  .consult-form button {
+    padding: 10px;
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .form-container {
+    max-width: 95%;
+    margin: 16px auto;
+    padding: 16px 18px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  }
+
+  .consult-form label {
+    margin-top: 10px;
+    font-size: 0.9rem;
+  }
+
+  .consult-form input,
+  .consult-form select,
+  .consult-form textarea {
+    padding: 8px;
+    font-size: 0.9rem;
+  }
+
+  .consult-form textarea {
+    min-height: 110px;
+  }
+
+  .consult-form button {
+    padding: 10px;
+    font-size: 0.9rem;
+    border-radius: 6px;
+  }
+}

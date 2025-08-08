@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "name": "Men's Face Wash",
+    "chemicalName": "Salicylic Acid",
+    "details": "Helps with acne and oil control.",
+    "price": 180,
+    "mrp": 250,
+    "discount": "28% OFF",
+    "category": "face-care",
+    "image": "/images/men-facewash.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Men's Shampoo",
+    "chemicalName": "Ketoconazole",
+    "details": "Anti-dandruff and scalp treatment.",
+    "price": 220,
+    "mrp": 300,
+    "discount": "26% OFF",
+    "category": "hair-care",
+    "image": "/images/men-shampoo.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Denver Hamilton",
+    "chemicalName": "Fragrance",
+    "details": "Long-lasting masculine fragrance for daily wear.",
+    "price": 180,
+    "mrp": 220,
+    "discount": "18% OFF",
+    "category": "perfumes",
+    "image": "/images/denver.jpeg"
+  },
+  {
+    "id": 4,
+    "name": "Fogg Scent Impressio",
+    "chemicalName": "Perfume Spray",
+    "details": "Fresh aromatic fragrance with bold notes.",
+    "price": 210,
+    "mrp": 260,
+    "discount": "19% OFF",
+    "category": "perfumes",
+    "image": "/images/fogg.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Wild Stone Code Steel",
+    "chemicalName": "Deodorant Body Spray",
+    "details": "Strong, masculine scent for a confident personality.",
+    "price": 200,
+    "mrp": 250,
+    "discount": "20% OFF",
+    "category": "perfumes",
+    "image": "/images/wild.jpeg"
+  },
+  {
+    "id": 6,
+    "name": "AXE Signature Mysterious",
+    "chemicalName": "Fragrance Spray",
+    "details": "Subtle yet intriguing scent for all-day freshness.",
+    "price": 195,
+    "mrp": 245,
+    "discount": "20% OFF",
+    "category": "perfumes",
+    "image": "/images/axe.jpeg"
+  },
+  {
+    "id": 7,
+    "name": "Beardo Whisky Smoke",
+    "chemicalName": "Premium Eau De Parfum",
+    "details": "Luxury fragrance with notes of leather and whisky.",
+    "price": 499,
+    "mrp": 599,
+    "discount": "17% OFF",
+    "category": "perfumes",
+    "image": "/images/beardo.jpeg"
+  },
+  {
+    "id": 8,
+    "name": "Pond's Men Energy Bright",
+    "chemicalName": "Coffee Bean & Menthol",
+    "details": "Brightens dull skin and deep cleans pores.",
+    "price": 120,
+    "mrp": 150,
+    "discount": "20% OFF",
+    "category": "face-wash",
+    "image": "/images/ponds.jpeg"
+  },
+  {
+    "id": 9,
+    "name": "Garnier Men OilClear",
+    "chemicalName": "Lemon Extract",
+    "details": "Removes oil and refreshes skin instantly.",
+    "price": 130,
+    "mrp": 160,
+    "discount": "18% OFF",
+    "category": "face-wash",
+    "image": "/images/garnier.jpeg"
+  },
+  {
+    "id": 10,
+    "name": "Nivea Men Dark Spot Reduction",
+    "chemicalName": "Whitening Complex",
+    "details": "Fights dark spots and cleans deeply.",
+    "price": 135,
+    "mrp": 165,
+    "discount": "18% OFF",
+    "category": "face-wash",
+    "image": "/images/nivea.jpeg"
+  },
+  {
+    "id": 11,
+    "name": "Ustraa Face Wash Oily Skin",
+    "chemicalName": "Charcoal & Lime",
+    "details": "Oil control face wash for men.",
+    "price": 199,
+    "mrp": 249,
+    "discount": "20% OFF",
+    "category": "face-wash",
+    "image": "/images/ustraa.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Beardo De-Tan Face Wash",
+    "chemicalName": "Aloe Vera & Vitamin E",
+    "details": "Removes tan and rejuvenates skin.",
+    "price": 175,
+    "mrp": 210,
+    "discount": "17% OFF",
+    "category": "face-wash",
+    "image": "/images/detan.jpg"
+  }
+] 

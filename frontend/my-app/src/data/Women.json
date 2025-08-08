@@ -1,0 +1,302 @@
+[
+  {
+    "id": 201,
+    "name": "Whisper Ultra Clean Sanitary Pads",
+    "chemicalName": "NA",
+    "details": "Extra-long sanitary pads with gel lock technology for superior protection.",
+    "image": "/images/whisper_ultra.jpg",
+    "category": "menstrual-care",
+    "mrp": 120,
+    "discount": 10
+  },
+  {
+    "id": 202,
+    "name": "Stayfree Secure XL Sanitary Pads",
+    "chemicalName": "NA",
+    "details": "Cottony soft sanitary napkins with wings for all-round protection.",
+    "image": "/images/stayfree.jpg",
+    "category": "menstrual-care",
+    "mrp": 110,
+    "discount": 15
+  },
+  {
+    "id": 203,
+    "name": "Sirona Menstrual Cup (Medium)",
+    "chemicalName": "Medical Grade Silicone",
+    "details": "Reusable menstrual cup for eco-friendly period protection.",
+    "image": "/images/sirona.jpg",
+    "category": "menstrual-care",
+    "mrp": 399,
+    "discount": 20
+  },
+  {
+    "id": 204,
+    "name": "Gynoveda Period Pain Relief Roll-On",
+    "chemicalName": "Natural Herbs",
+    "details": "Herbal roll-on for quick relief from menstrual cramps and pain.",
+    "image": "/images/roll.jpg",
+    "category": "menstrual-care",
+    "mrp": 199,
+    "discount": 10
+  },
+  {
+    "id": 205,
+    "name": "Pee Safe Feminine Cramp Relief Roll-On",
+    "chemicalName": "Natural Oils",
+    "details": "Portable roll-on for relief from period cramps and pain.",
+    "image": "/images/pee.jpg",
+    "category": "menstrual-care",
+    "mrp": 249,
+    "discount": 12
+  },
+  {
+    "id": 206,
+    "name": "Whisper Bindazzz Nights Pads",
+    "chemicalName": "NA",
+    "details": "Night-time sanitary pads with extra coverage and protection.",
+    "image": "/images/whisperNight.jpg",
+    "category": "menstrual-care",
+    "mrp": 140,
+    "discount": 8
+  },
+  {
+    "id": 207,
+    "name": "Plush Organic Cotton Sanitary Pads",
+    "chemicalName": "NA",
+    "details": "Ultra-soft organic cotton pads for rash-free periods.",
+    "image": "/images/plush.jpg",
+    "category": "menstrual-care",
+    "mrp": 160,
+    "discount": 15
+  },
+  {
+    "id": 208,
+    "name": "Azah Organic Sanitary Pads",
+    "chemicalName": "NA",
+    "details": "Chemical-free pads with superior absorption for leak protection.",
+    "image": "/images/azah.jpg",
+    "category": "menstrual-care",
+    "mrp": 180,
+    "discount": 18
+  },
+  {
+    "id": 209,
+    "name": "Stayfree Dry Max Sanitary Pads",
+    "chemicalName": "NA",
+    "details": "Dry Max technology for long-lasting dryness and comfort.",
+    "image": "/images/dry.jpg",
+    "category": "menstrual-care",
+    "mrp": 130,
+    "discount": 12
+  },
+  {
+    "id": 210,
+    "name": "Amrutanjan Comfy Snug Fit Pads",
+    "chemicalName": "NA",
+    "details": "Comfortable sanitary napkins with high absorption.",
+    "image": "/images/amrut.jpg",
+    "category": "menstrual-care",
+    "mrp": 150,
+    "discount": 10
+  },
+  {
+    "id": 211,
+    "name": "Prega News Pregnancy Test Kit",
+    "chemicalName": "NA",
+    "details": "One-step urine pregnancy test kit for quick detection.",
+    "image": "/images/prega.jpg",
+    "category": "pregnancy-fertility",
+    "mrp": 60,
+    "discount": 5
+  },
+  {
+    "id": 212,
+    "name": "i-Can Pregnancy Test Kit",
+    "chemicalName": "NA",
+    "details": "Accurate and easy-to-use pregnancy test kit.",
+    "image": "/images/ican.jpg",
+    "category": "pregnancy-fertility",
+    "mrp": 65,
+    "discount": 6
+  },
+  {
+    "id": 213,
+    "name": "Pregnancy Multivitamin Tablets",
+    "chemicalName": "Folic Acid, Iron, DHA",
+    "details": "Multivitamin tablets to support a healthy pregnancy.",
+    "image": "/images/multi.jpg",
+    "category": "pregnancy-fertility",
+    "mrp": 499,
+    "discount": 15
+  },
+  {
+    "id": 214,
+    "name": "PregaEase Pregnancy Support Pillow",
+    "chemicalName": "NA",
+    "details": "Ergonomic pregnancy pillow for sleep and comfort.",
+    "image": "/images/pillow.jpg",
+    "category": "pregnancy-fertility",
+    "mrp": 1299,
+    "discount": 20
+  },
+  {
+    "id": 215,
+    "name": "Maternity Support Belt",
+    "chemicalName": "NA",
+    "details": "Adjustable belt to relieve back pain during pregnancy.",
+    "image": "/images/belt.jpg",
+    "category": "pregnancy-fertility",
+    "mrp": 699,
+    "discount": 18
+  },
+  {
+    "id": 216,
+    "name": "i-Can Ovulation Test Kit",
+    "chemicalName": "NA",
+    "details": "Easy-to-use ovulation test kit to track fertility.",
+    "image": "/images/iknow.jpeg",
+    "category": "pregnancy-fertility",
+    "mrp": 120,
+    "discount": 10
+  },
+  {
+    "id": 217,
+    "name": "Nutrilite Prenatal DHA Tablets",
+    "chemicalName": "DHA, Omega-3",
+    "details": "Prenatal supplement to support baby's development.",
+    "image": "/images/tab.jpg",
+    "category": "pregnancy-fertility",
+    "mrp": 899,
+    "discount": 15
+  },
+  {
+    "id": 218,
+    "name": "Himalaya Pregnancy Stretch Mark Cream",
+    "chemicalName": "Herbal Actives",
+    "details": "Cream to reduce stretch marks during pregnancy.",
+    "image": "/images/cream.jpeg",
+    "category": "pregnancy-fertility",
+    "mrp": 349,
+    "discount": 12
+  },
+  {
+    "id": 219,
+    "name": "Everteen Natural Intimate Wash",
+    "chemicalName": "NA",
+    "details": "Natural intimate hygiene wash to maintain pH balance.",
+    "image": "/images/everwash.jpg",
+    "category": "intimate-hygiene",
+    "mrp": 180,
+    "discount": 10
+  },
+  {
+    "id": 220,
+    "name": "VWash Plus Intimate Hygiene Wash",
+    "chemicalName": "Lactic Acid",
+    "details": "Intimate wash to prevent irritation and maintain hygiene.",
+    "image": "/images/vwash.jpg",
+    "category": "intimate-hygiene",
+    "mrp": 220,
+    "discount": 12
+  },
+  {
+    "id": 221,
+    "name": "Sirona Intimate Wipes",
+    "chemicalName": "Natural Extracts",
+    "details": "Gentle wipes for on-the-go intimate hygiene.",
+    "image": "/images/sironawipes.jpg",
+    "category": "intimate-hygiene",
+    "mrp": 150,
+    "discount": 10
+  },
+  {
+    "id": 222,
+    "name": "Himalaya FOR MOMS Intimate Wash",
+    "chemicalName": "Tea Tree Oil, Pongamia Oil",
+    "details": "Gentle intimate wash during and after pregnancy.",
+    "image": "/images/momi.jpeg",
+    "category": "intimate-hygiene",
+    "mrp": 200,
+    "discount": 10
+  },
+  {
+    "id": 223,
+    "name": "Namyaa Intimate Lightening Serum",
+    "chemicalName": "Plant-Based Extracts",
+    "details": "Serum to reduce pigmentation and brighten intimate areas.",
+    "image": "/images/nam.jpeg",
+    "category": "intimate-hygiene",
+    "mrp": 350,
+    "discount": 15
+  },
+  {
+    "id": 224,
+    "name": "Everteen Menstrual Cup Wash",
+    "chemicalName": "Natural Extracts",
+    "details": "Formulated wash to clean menstrual cups without damage.",
+    "image": "/images/ever.jpeg",
+    "category": "intimate-hygiene",
+    "mrp": 160,
+    "discount": 10
+  },
+  {
+    "id": 225,
+    "name": "Carefree Panty Liners",
+    "chemicalName": "NA",
+    "details": "Thin, comfortable panty liners for daily freshness.",
+    "image": "/images/carefree.jpg",
+    "category": "everyday-essentials",
+    "mrp": 120,
+    "discount": 10
+  },
+  {
+    "id": 226,
+    "name": "Sirona Disposal Bags for Sanitary Pads",
+    "chemicalName": "NA",
+    "details": "Odor-lock disposal bags for sanitary waste.",
+    "image": "/images/sironadis.jpg",
+    "category": "everyday-essentials",
+    "mrp": 99,
+    "discount": 5
+  },
+  {
+    "id": 227,
+    "name": "Pee Safe Disposable Toilet Seat Covers",
+    "chemicalName": "NA",
+    "details": "Disposable covers to maintain hygiene in public toilets.",
+    "image": "/images/toilet.jpg",
+    "category": "everyday-essentials",
+    "mrp": 149,
+    "discount": 8
+  },
+  {
+    "id": 228,
+    "name": "PeeBuddy Disposable Female Urination Device",
+    "chemicalName": "NA",
+    "details": "Device to help women urinate while standing.",
+    "image": "/images/bud.jpeg",
+    "category": "everyday-essentials",
+    "mrp": 199,
+    "discount": 12
+  },
+  {
+    "id": 229,
+    "name": "Zandu Feminine Tonic",
+    "chemicalName": "Ayurvedic Herbs",
+    "details": "Herbal tonic for regulating menstrual cycles.",
+    "image": "/images/zandu.jpeg",
+    "category": "everyday-essentials",
+    "mrp": 225,
+    "discount": 15
+  },
+  {
+    "id": 230,
+    "name": "Sirona Reusable Menstrual Cup (Small)",
+    "chemicalName": "Medical Grade Silicone",
+    "details": "Small-sized menstrual cup for teenagers and first-time users.",
+    "image": "/images/sirocup.jpeg",
+    "category": "menstrual-care",
+    "mrp": 349,
+    "discount": 20
+  }
+]

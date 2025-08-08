@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "Horlicks Protein Plus",
+    "chemicalName": "Whey & Soy Protein",
+    "details": "Nutritional supplement with high-quality protein for strength.",
+    "price": 420,
+    "mrp": 525,
+    "discount": "20% OFF",
+    "category": "elder-nutrition",
+    "image": "/images/horlicks-elder.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Ensure Complete Balance",
+    "chemicalName": "Vitamins + Minerals",
+    "details": "Supports immune health and muscle strength in elders.",
+    "price": 599,
+    "mrp": 750,
+    "discount": "20% OFF",
+    "category": "elder-nutrition",
+    "image": "/images/ensure.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Protinex Vanilla",
+    "chemicalName": "Hydrolyzed Protein + DHA",
+    "details": "Boosts overall health and brain function.",
+    "price": 565,
+    "mrp": 710,
+    "discount": "21% OFF",
+    "category": "elder-nutrition",
+    "image": "/images/protinex.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Himalaya JointCare Tablets",
+    "chemicalName": "Boswellia + Guggulu",
+    "details": "Helps reduce joint stiffness and inflammation.",
+    "price": 180,
+    "mrp": 225,
+    "discount": "20% OFF",
+    "category": "elder-joint-relief",
+    "image": "/images/ointcare1.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Dr. Ortho Oil",
+    "chemicalName": "Herbal Oil Blend",
+    "details": "Relieves joint and muscular pain naturally.",
+    "price": 120,
+    "mrp": 150,
+    "discount": "20% OFF",
+    "category": "elder-joint-relief",
+    "image": "/images/drortho.jpg"
+  },
+  {
+    "id": 6,
+    "name": "JointEase Capsules",
+    "chemicalName": "Glucosamine + Chondroitin",
+    "details": "Supports cartilage repair and joint flexibility.",
+    "price": 299,
+    "mrp": 360,
+    "discount": "17% OFF",
+    "category": "elder-joint-relief",
+    "image": "/images/jointease.jpg"
+  }
+]

@@ -1,0 +1,355 @@
+[
+  {
+    "id": 1,
+    "name": "Potassium (K+) Test",
+    "price": 239,
+    "mrp": 249,
+    "discount": "4% OFF",
+    "fasting": "Fasting not required",
+    "reportTime": "Reports in 15 Hrs"
+  },
+  {
+    "id": 2,
+    "name": "Glycosylated Hemoglobin (HbA1c) Test",
+    "price": 449,
+    "mrp": 699,
+    "discount": "36% OFF",
+    "fasting": "Fasting not required",
+    "reportTime": "Reports in 15 Hrs",
+    "includes": "Includes 2 tests"
+  },
+  {
+    "id": 3,
+    "name": "Fasting Blood Sugar (FBS) Test",
+    "price": 119,
+    "mrp": 299,
+    "discount": "60% OFF",
+    "fasting": "Fasting required",
+    "reportTime": "Reports in 15 Hrs"
+  },
+  {
+    "id": 4,
+    "name": "Vitamin D Total Test",
+    "price": 799,
+    "mrp": 1500,
+    "discount": "47% OFF",
+    "fasting": "Fasting not required",
+    "reportTime": "Reports in 24 Hrs"
+  },
+  {
+    "id": 5,
+    "name": "Liver Function Test (LFT)",
+    "price": 549,
+    "mrp": 999,
+    "discount": "45% OFF",
+    "fasting": "Fasting required",
+    "reportTime": "Reports in 18 Hrs",
+    "includes": "Includes 11 tests"
+  },
+  {
+    "id": 6,
+    "name": "Complete Blood Count (CBC) Test",
+    "price": 299,
+    "mrp": 499,
+    "discount": "40% OFF",
+    "fasting": "Fasting not required",
+    "reportTime": "Reports in 12 Hrs"
+  },
+  {
+    "id": 7,
+    "name": "Thyroid Profile Total (T3, T4 & TSH) Test",
+    "price": 349,
+    "mrp": 699,
+    "discount": "50% OFF",
+    "fasting": "Fasting not required",
+    "reportTime": "Reports in 15 Hrs"
+  },
+  {
+    "id": 8,
+    "name": "Kidney Function Test (KFT)",
+    "price": 649,
+    "mrp": 1200,
+    "discount": "46% OFF",
+    "fasting": "Fasting required",
+    "reportTime": "Reports in 20 Hrs",
+    "includes": "Includes 10 tests"
+  },
+  
+  {
+    "id": 9,
+    "name": "Calcium Total Test",
+    "price": 199,
+    "mrp": 399,
+    "discount": "50% OFF",
+    "fasting": "Fasting not required",
+    "reportTime": "Reports in 10 Hrs"
+  },
+  {
+    "id": 10,
+    "name": "Iron Studies Test",
+    "price": 749,
+    "mrp": 1299,
+    "discount": "42% OFF",
+    "fasting": "Fasting required",
+    "reportTime": "Reports in 24 Hrs",
+    "includes": "Includes 3 tests"
+  },
+  {
+    "id": 11,
+    "name": "Vitamin B12 Test",
+    "price": 499,
+    "mrp": 999,
+    "discount": "50% OFF",
+    "fasting": "Fasting required",
+    "reportTime": "Reports in 15 Hrs"
+  },
+  {
+    "id": 12,
+    "name": "C-Reactive Protein (CRP) Test",
+    "price": 399,
+    "mrp": 899,
+    "discount": "56% OFF",
+    "fasting": "Fasting not required",
+    "reportTime": "Reports in 14 Hrs"
+  },
+  {
+    "id": 13,
+    "name": "Blood Urea Test",
+    "price": 249,
+    "mrp": 499,
+    "discount": "50% OFF",
+    "fasting": "Fasting required",
+    "reportTime": "Reports in 15 Hrs"
+  },
+  {
+    "id": 14,
+    "name": "Lipid Profile Test",
+    "price": 449,
+    "mrp": 899,
+    "discount": "50% OFF",
+    "fasting": "Fasting required",
+    "reportTime": "Reports in 16 Hrs",
+    "includes": "Includes 8 tests"
+  },
+  {
+    "id": 15,
+    "name": "Electrolytes Panel Test",
+    "price": 349,
+    "mrp": 699,
+    "discount": "50% OFF",
+    "fasting": "Fasting not required",
+    "reportTime": "Reports in 12 Hrs"
+  },
+  {
+    "id": 16,
+    "name": "Hepatitis B Surface Antigen (HBsAg) Test",
+    "price": 599,
+    "mrp": 1299,
+    "discount": "54% OFF",
+    "fasting": "Fasting not required",
+    "reportTime": "Reports in 18 Hrs"
+  },
+  {
+    "id": 17,
+    "name": "HIV 1 & 2 Antibody Test",
+    "price": 699,
+    "mrp": 1499,
+    "discount": "53% OFF",
+    "fasting": "Fasting not required",
+    "reportTime": "Reports in 24 Hrs"
+  },
+  {
+    "id": 18,
+    "name": "Malaria Antigen Test",
+    "price": 299,
+    "mrp": 599,
+    "discount": "50% OFF",
+    "fasting": "Fasting not required",
+    "reportTime": "Reports in 6 Hrs"
+  },
+  {
+    "id": 19,
+    "name": "Dengue NS1 Antigen Test",
+    "price": 499,
+    "mrp": 999,
+    "discount": "50% OFF",
+    "fasting": "Fasting not required",
+    "reportTime": "Reports in 6 Hrs"
+  },
+  {
+    "id": 20,
+    "name": "Urine Routine Examination",
+    "price": 149,
+    "mrp": 299,
+    "discount": "50% OFF",
+    "fasting": "Fasting not required",
+    "reportTime": "Reports in 8 Hrs"
+  },
+  {
+    "id": 21,
+    "name": "PSA Total Test (Prostate Cancer Screening)",
+    "price": 849,
+    "mrp": 1599,
+    "discount": "47% OFF",
+    "fasting": "Fasting not required",
+    "reportTime": "Reports in 24 Hrs"
+  },
+  {
+    "id": 22,
+    "name": "HbA1c + Fasting Blood Sugar Combo",
+    "price": 499,
+    "mrp": 999,
+    "discount": "50% OFF",
+    "fasting": "Fasting required",
+    "reportTime": "Reports in 15 Hrs",
+    "includes": "Includes 2 tests"
+  },
+  {
+    "id": 23,
+    "name": "Blood Grouping & Rh Typing",
+    "price": 199,
+    "mrp": 399,
+    "discount": "50% OFF",
+    "fasting": "Fasting not required",
+    "reportTime": "Reports in 10 Hrs"
+  },
+  {
+    "id": 24,
+    "name": "Rheumatoid Factor (RA) Test",
+    "price": 349,
+    "mrp": 699,
+    "discount": "50% OFF",
+    "fasting": "Fasting not required",
+    "reportTime": "Reports in 15 Hrs"
+  },
+  {
+    "id": 25,
+    "name": "Serum Creatinine Test",
+    "price": 229,
+    "mrp": 449,
+    "discount": "49% OFF",
+    "fasting": "Fasting required",
+    "reportTime": "Reports in 12 Hrs"
+  },
+  {
+    "id": 26,
+    "name": "Magnesium Test",
+    "price": 349,
+    "mrp": 699,
+    "discount": "50% OFF",
+    "fasting": "Fasting required",
+    "reportTime": "Reports in 15 Hrs"
+  },
+  {
+    "id": 27,
+    "name": "Testosterone Total Test",
+    "price": 699,
+    "mrp": 1399,
+    "discount": "50% OFF",
+    "fasting": "Fasting required",
+    "reportTime": "Reports in 24 Hrs"
+  },
+  {
+    "id": 28,
+    "name": "Pregnancy Blood Test (Beta hCG)",
+    "price": 399,
+    "mrp": 799,
+    "discount": "50% OFF",
+    "fasting": "Fasting not required",
+    "reportTime": "Reports in 10 Hrs"
+  },
+  {
+    "id": 29,
+    "name": "Coagulation Profile (PT, INR)",
+    "price": 449,
+    "mrp": 899,
+    "discount": "50% OFF",
+    "fasting": "Fasting required",
+    "reportTime": "Reports in 18 Hrs",
+    "includes": "Includes 2 tests"
+  },
+  {
+    "id": 30,
+    "name": "Hepatitis C Antibody Test",
+    "price": 649,
+    "mrp": 1299,
+    "discount": "50% OFF",
+    "fasting": "Fasting not required",
+    "reportTime": "Reports in 24 Hrs"
+  },
+  {
+    "id": 31,
+    "name": "H. Pylori Antibody Test",
+    "price": 499,
+    "mrp": 999,
+    "discount": "50% OFF",
+    "fasting": "Fasting not required",
+    "reportTime": "Reports in 20 Hrs"
+  },
+  {
+    "id": 32,
+    "name": "Covid-19 RT-PCR Test",
+    "price": 699,
+    "mrp": 1500,
+    "discount": "53% OFF",
+    "fasting": "Fasting not required",
+    "reportTime": "Reports in 12 Hrs"
+  },
+  {
+    "id": 33,
+    "name": "Covid-19 Antibody IgG Test",
+    "price": 499,
+    "mrp": 999,
+    "discount": "50% OFF",
+    "fasting": "Fasting not required",
+    "reportTime": "Reports in 20 Hrs"
+  },
+  {
+    "id": 34,
+    "name": "Insulin Fasting Test",
+    "price": 599,
+    "mrp": 1299,
+    "discount": "53% OFF",
+    "fasting": "Fasting required",
+    "reportTime": "Reports in 18 Hrs"
+  },
+  {
+    "id": 35,
+    "name": "Allergy Screening Panel",
+    "price": 1299,
+    "mrp": 2499,
+    "discount": "48% OFF",
+    "fasting": "Fasting not required",
+    "reportTime": "Reports in 48 Hrs",
+    "includes": "Includes 20 allergens"
+  },
+  {
+    "id": 36,
+    "name": "HLA B27 Test",
+    "price": 1499,
+    "mrp": 2999,
+    "discount": "50% OFF",
+    "fasting": "Fasting not required",
+    "reportTime": "Reports in 48 Hrs"
+  },
+  {
+    "id": 37,
+    "name": "TSH Ultra Sensitive Test",
+    "price": 249,
+    "mrp": 499,
+    "discount": "50% OFF",
+    "fasting": "Fasting not required",
+    "reportTime": "Reports in 10 Hrs"
+  },
+  {
+    "id": 38,
+    "name": "Cortisol Test",
+    "price": 699,
+    "mrp": 1299,
+    "discount": "46% OFF",
+    "fasting": "Fasting required",
+    "reportTime": "Reports in 24 Hrs"
+  }
+]
+
+

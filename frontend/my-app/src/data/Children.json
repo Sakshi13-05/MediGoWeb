@@ -1,0 +1,322 @@
+[
+  {
+    "id": 1,
+    "name": "Kids Multivitamin Syrup",
+    "details": "Supports growth and immunity in children.",
+    "image": "/images/kidM.jpg",
+    "category": "nutrition-growth",
+    "mrp": 150,
+    "discount": 10,
+    "price": 135
+  },
+  {
+    "id": 2,
+    "name": "Baby Diaper Pack",
+    "details": "Soft, absorbent diapers for maximum comfort.",
+    "image": "/images/baby.jpg",
+    "category": "baby-care",
+    "mrp": 599,
+    "discount": 15,
+    "price": 509
+  },
+  {
+    "id": 3,
+    "name": "Baby Body Lotion",
+    "details": "Gentle moisturizer for delicate baby skin.",
+    "image": "/images/lotion.jpg",
+    "category": "baby-care",
+    "mrp": 220,
+    "discount": 12,
+    "price": 194
+  },
+  {
+    "id": 4,
+    "name": "Hand Sanitizer (Kids Safe)",
+    "details": "Mild, alcohol-free sanitizer for kids.",
+    "image": "/images/handwash.jpg",
+    "category": "hygiene-protection",
+    "mrp": 99,
+    "discount": 5,
+    "price": 94
+  },
+  {
+    "id": 5,
+    "name": "Kids Cold & Cough Syrup",
+    "details": "Relieves cough and cold symptoms in children.",
+    "image": "/images/syrup.jpg",
+    "category": "health-wellness",
+    "mrp": 180,
+    "discount": 8,
+    "price": 166
+  },
+  {
+    "id": 6,
+    "name": "Baby Wipes Pack",
+    "details": "Hypoallergenic wipes for quick clean-ups.",
+    "image": "/images/wipesp.jpg",
+    "category": "hygiene-protection",
+    "mrp": 250,
+    "discount": 20,
+    "price": 200
+  },
+  {
+    "id": 7,
+    "name": "Kids Calcium Gummies",
+    "details": "Delicious gummies to support bone development.",
+    "image": "/images/calcium.jpg",
+    "category": "nutrition-growth",
+    "mrp": 299,
+    "discount": 10,
+    "price": 269
+  },
+  {
+    "id": 8,
+    "name": "Baby Shampoo",
+    "details": "Tear-free gentle formula for babies.",
+    "image": "/images/shampoo.jpg",
+    "category": "baby-care",
+    "mrp": 180,
+    "discount": 12,
+    "price": 158
+  },
+  {
+    "id": 9,
+    "name": "Kids Immunity Booster",
+    "details": "Strengthens immunity naturally.",
+    "image": "/images/immunity.jpg",
+    "category": "health-wellness",
+    "mrp": 350,
+    "discount": 15,
+    "price": 298
+  },
+  {
+    "id": 10,
+    "name": "Baby Powder",
+    "details": "Keeps baby's skin fresh and dry.",
+    "image": "/images/powder.jpg",
+    "category": "baby-care",
+    "mrp": 160,
+    "discount": 8,
+    "price": 147
+  },
+  {
+    "id": 11,
+    "name": "Children's Toothpaste",
+    "details": "Fluoride-free toothpaste for kids.",
+    "image": "/images/toothpaste.jpg",
+    "category": "hygiene-protection",
+    "mrp": 90,
+    "discount": 5,
+    "price": 86
+  },
+  {
+    "id": 12,
+    "name": "Kids Pain Relief Gel",
+    "details": "Soothes minor aches and pains.",
+    "image": "/images/painrelief.jpg",
+    "category": "health-wellness",
+    "mrp": 210,
+    "discount": 10,
+    "price": 189
+  },
+  {
+    "id": 13,
+    "name": "Protein Powder for Kids",
+    "details": "Helps in growth and muscle development.",
+    "image": "/images/protein.jpg",
+    "category": "nutrition-growth",
+    "mrp": 400,
+    "discount": 12,
+    "price": 352
+  },
+  {
+    "id": 14,
+    "name": "Baby Massage Oil",
+    "details": "Nourishes baby's delicate skin.",
+    "image": "/images/massageoil.jpg",
+    "category": "baby-care",
+    "mrp": 250,
+    "discount": 15,
+    "price": 213
+  },
+  {
+    "id": 15,
+    "name": "Kids Fever Thermometer",
+    "details": "Easy and accurate temperature check.",
+    "image": "/images/thermometer.jpg",
+    "category": "health-wellness",
+    "mrp": 320,
+    "discount": 8,
+    "price": 294
+  },
+  {
+    "id": 16,
+    "name": "Baby Nail Clipper",
+    "details": "Safe and gentle nail trimming.",
+    "image": "/images/nailclipper.jpg",
+    "category": "hygiene-protection",
+    "mrp": 150,
+    "discount": 5,
+    "price": 143
+  },
+  {
+    "id": 17,
+    "name": "Vitamin D Drops for Kids",
+    "details": "Supports healthy bones and immunity.",
+    "image": "/images/vitamind.jpg",
+    "category": "nutrition-growth",
+    "mrp": 180,
+    "discount": 10,
+    "price": 162
+  },
+  {
+    "id": 18,
+    "name": "Baby Cotton Buds",
+    "details": "Soft buds for safe cleaning.",
+    "image": "/images/cottonbuds.jpg",
+    "category": "hygiene-protection",
+    "mrp": 70,
+    "discount": 7,
+    "price": 65
+  },
+  {
+    "id": 19,
+    "name": "Kids Inhaler (Mild)",
+    "details": "Helps relieve mild nasal congestion.",
+    "image": "/images/inhaler.jpg",
+    "category": "health-wellness",
+    "mrp": 250,
+    "discount": 8,
+    "price": 230
+  },
+  {
+    "id": 20,
+    "name": "Kids Protein Biscuits",
+    "details": "Nutritious biscuits for growing kids.",
+    "image": "/images/biscuits.jpg",
+    "category": "nutrition-growth",
+    "mrp": 150,
+    "discount": 12,
+    "price": 132
+  },
+  {
+    "id": 21,
+    "name": "Baby Bath Wash",
+    "details": "Tear-free gentle cleansing formula.",
+    "image": "/images/bathwash.jpg",
+    "category": "baby-care",
+    "mrp": 220,
+    "discount": 15,
+    "price": 187
+  },
+  {
+    "id": 22,
+    "name": "Children's Mosquito Repellent",
+    "details": "Safe protection from mosquitoes.",
+    "image": "/images/repellent.jpg",
+    "category": "hygiene-protection",
+    "mrp": 199,
+    "discount": 10,
+    "price": 179
+  },
+  {
+    "id": 23,
+    "name": "Baby Pacifier",
+    "details": "Soft silicone pacifier for infants.",
+    "image": "/images/pacifier.jpg",
+    "category": "baby-care",
+    "mrp": 120,
+    "discount": 8,
+    "price": 110
+  },
+  {
+    "id": 24,
+    "name": "Children's Bandages",
+    "details": "Colorful, skin-friendly bandages for kids.",
+    "image": "/images/bandages.jpg",
+    "category": "health-wellness",
+    "mrp": 80,
+    "discount": 5,
+    "price": 76
+  },
+  {
+    "id": 25,
+    "name": "Kids Digestive Tonic",
+    "details": "Supports healthy digestion.",
+    "image": "/images/digestive.jpg",
+    "category": "health-wellness",
+    "mrp": 250,
+    "discount": 10,
+    "price": 225
+  },
+  {
+    "id": 26,
+    "name": "Baby Feeding Bottle",
+    "details": "Safe BPA-free feeding bottle.",
+    "image": "/images/feedingbottle.jpg",
+    "category": "baby-care",
+    "mrp": 300,
+    "discount": 12,
+    "price": 264
+  },
+  {
+    "id": 27,
+    "name": "Children's Antiseptic Cream",
+    "details": "Heals minor cuts and scrapes.",
+    "image": "/images/antiseptic.jpg",
+    "category": "health-wellness",
+    "mrp": 160,
+    "discount": 8,
+    "price": 147
+  },
+  {
+    "id": 28,
+    "name": "Baby Teething Toy",
+    "details": "Soothes baby's gums during teething.",
+    "image": "/images/teething.jpg",
+    "category": "baby-care",
+    "mrp": 199,
+    "discount": 10,
+    "price": 179
+  },
+  {
+    "id": 29,
+    "name": "Kids Zinc Syrup",
+    "details": "Boosts immunity and recovery.",
+    "image": "/images/kidsZ.jpg",
+    "category": "nutrition-growth",
+    "mrp": 180,
+    "discount": 10,
+    "price": 162
+  },
+  {
+    "id": 30,
+    "name": "Baby Bed Protector Sheet",
+    "details": "Waterproof sheet for hygiene and comfort.",
+    "image": "/images/bedprotector.jpg",
+    "category": "hygiene-protection",
+    "mrp": 400,
+    "discount": 15,
+    "price": 340
+  },
+  {
+    "id": 31,
+    "name": "Children's Sunscreen Lotion",
+    "details": "Protects delicate skin from sunburn.",
+    "image": "/images/sunscreen.jpg",
+    "category": "hygiene-protection",
+    "mrp": 350,
+    "discount": 10,
+    "price": 315
+  },
+  {
+    "id": 32,
+    "name": "Kids Energy Drink Powder",
+    "details": "Boosts stamina and hydration.",
+    "image": "/images/energydrink.jpg",
+    "category": "nutrition-growth",
+    "mrp": 420,
+    "discount": 12,
+    "price": 370
+  }
+]

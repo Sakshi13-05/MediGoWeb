@@ -1,0 +1,350 @@
+[
+  {
+    "id": 1,
+    "name": "Paracetamol",
+    "chemicalName": "Acetaminophen",
+    "details": "Used to relieve pain and reduce fever.",
+    "image": "/images/para.jpeg",
+    "category": "cold-fever",
+    "price": 25,
+    "mrp": 30,
+    "discount": "17% OFF"
+  },
+  {
+    "id": 2,
+    "name": "Dolo 650",
+    "chemicalName": "Paracetamol",
+    "details": "Effective for fever and mild to moderate pain relief.",
+    "image": "/images/dolo.jpeg",
+    "category": "cold-fever",
+    "price": 30,
+    "mrp": 36,
+    "discount": "17% OFF"
+  },
+  {
+    "id": 3,
+    "name": "ORS Solution",
+    "chemicalName": "Oral Rehydration Salts",
+    "details": "Replenishes lost fluids and salts due to dehydration.",
+    "image": "/images/ors.jpeg",
+    "category": "stomach",
+    "price": 35,
+    "mrp": 42,
+    "discount": "17% OFF"
+  },
+  {
+    "id": 4,
+    "name": "Pantoprazole",
+    "chemicalName": "Pantoprazole Sodium",
+    "details": "Relieves acidity, heartburn, and stomach ulcers.",
+    "image": "/image/pant.jpeg",
+    "category": "stomach",
+    "price": 40,
+    "mrp": 48,
+    "discount": "17% OFF"
+  },
+  {
+    "id": 5,
+    "name": "Cetirizine",
+    "chemicalName": "Cetirizine Hydrochloride",
+    "details": "Provides relief from allergies, sneezing, and cold symptoms.",
+    "image": "/images/cet.jpeg",
+    "category": "cold-fever",
+    "price": 45,
+    "mrp": 54,
+    "discount": "17% OFF"
+  },
+  {
+    "id": 6,
+    "name": "Betadine Ointment",
+    "chemicalName": "Povidone-Iodine",
+    "details": "Antiseptic ointment for minor cuts, wounds, and burns.",
+    "image": "/images/beta.jpeg",
+    "category": "wound-swelling",
+    "price": 50,
+    "mrp": 60,
+    "discount": "17% OFF"
+  },
+  {
+    "id": 7,
+    "name": "Ibuprofen",
+    "chemicalName": "Ibuprofen",
+    "details": "Used to relieve pain, inflammation, and fever.",
+    "image": "/images/ibu.jpeg",
+    "category": "cold-fever",
+    "price": 55,
+    "mrp": 66,
+    "discount": "17% OFF"
+  },
+  {
+    "id": 8,
+    "name": "Amoxicillin",
+    "chemicalName": "Amoxicillin Trihydrate",
+    "details": "Antibiotic used to treat bacterial infections.",
+    "image": "/images/amo.jpeg",
+    "category": "cold-fever",
+    "price": 60,
+    "mrp": 72,
+    "discount": "17% OFF"
+  },
+  {
+    "id": 9,
+    "name": "Domperidone",
+    "chemicalName": "Domperidone Maleate",
+    "details": "Used to relieve nausea and vomiting.",
+    "image": "/images/dom.jpeg",
+    "category": "stomach",
+    "price": 65,
+    "mrp": 78,
+    "discount": "17% OFF"
+  },
+  {
+    "id": 10,
+    "name": "Digene",
+    "chemicalName": "Magnesium Hydroxide & Aluminium Hydroxide",
+    "details": "Antacid that relieves acidity and indigestion.",
+    "image": "/images/digen.jpeg",
+    "category": "stomach",
+    "price": 70,
+    "mrp": 84,
+    "discount": "17% OFF"
+  },
+  {
+    "id": 11,
+    "name": "Loratadine",
+    "chemicalName": "Loratadine",
+    "details": "Antihistamine for allergies and hay fever.",
+    "image": "/images/lora.jpeg",
+    "category": "cold-fever",
+    "price": 75,
+    "mrp": 90,
+    "discount": "17% OFF"
+  },
+  {
+    "id": 12,
+    "name": "Zincovit",
+    "chemicalName": "Multivitamins & Zinc",
+    "details": "Nutritional supplement for overall health.",
+    "image": "/images/zin.jpeg",
+    "category": "tonics-supplements",
+    "price": 80,
+    "mrp": 96,
+    "discount": "17% OFF"
+  },
+  {
+    "id": 13,
+    "name": "Revital H",
+    "chemicalName": "Ginseng, Multivitamins & Minerals",
+    "details": "Daily supplement for energy and immunity.",
+    "image": "/images/reta.jpeg",
+    "category": "tonics-supplements",
+    "price": 85,
+    "mrp": 102,
+    "discount": "17% OFF"
+  },
+  {
+    "id": 14,
+    "name": "Becosules",
+    "chemicalName": "Vitamin B Complex",
+    "details": "Vitamin supplement for energy and nerve health.",
+    "image": "/images/bes.jpeg",
+    "category": "tonics-supplements",
+    "price": 90,
+    "mrp": 108,
+    "discount": "17% OFF"
+  },
+  {
+    "id": 15,
+    "name": "Neosporin Ointment",
+    "chemicalName": "Bacitracin & Neomycin",
+    "details": "Antibiotic ointment for minor cuts and wounds.",
+    "image": "/images/neo.jpeg",
+    "category": "wound-swelling",
+    "price": 95,
+    "mrp": 114,
+    "discount": "17% OFF"
+  },
+  
+  {
+    "id": 16,
+    "name": "Himalaya Skin Cream",
+    "chemicalName": "Herbal Extracts",
+    "details": "Moisturizing cream for healthy skin.",
+    "image": "/images/him.jpeg",
+    "category": "skin-care",
+    "price": 100,
+    "mrp": 120,
+    "discount": "17% OFF"
+  },
+  {
+    "id": 17,
+    "name": "Clotrimazole Cream",
+    "chemicalName": "Clotrimazole",
+    "details": "Antifungal cream for skin infections.",
+    "image": "/images/clot.jpeg",
+    "category": "skin-care",
+    "price": 105,
+    "mrp": 126,
+    "discount": "17% OFF"
+  },
+  {
+    "id": 18,
+    "name": "Calamine Lotion",
+    "chemicalName": "Calamine & Zinc Oxide",
+    "details": "Relieves itching, rashes, and skin irritation.",
+    "image": "/images/cal.jpeg",
+    "category": "skin-care",
+    "price": 110,
+    "mrp": 132,
+    "discount": "17% OFF"
+  },
+  {
+    "id": 19,
+    "name": "Mupirocin Ointment",
+    "chemicalName": "Mupirocin",
+    "details": "Topical antibiotic for skin infections.",
+    "image": "/images/mup.jpeg",
+    "category": "wound-swelling",
+    "price": 115,
+    "mrp": 138,
+    "discount": "17% OFF"
+  },
+  {
+    "id": 20,
+    "name": "ORS Lemon Flavor",
+    "chemicalName": "Oral Rehydration Salts",
+    "details": "Rehydrates body with lemon flavor.",
+    "image": "/images/lemon.jpeg",
+    "category": "stomach",
+    "price": 120,
+    "mrp": 144,
+    "discount": "17% OFF"
+  },
+  {
+    "id": 21,
+    "name": "Electral Powder",
+    "chemicalName": "Electrolytes & Glucose",
+    "details": "Quick relief from dehydration and fatigue.",
+    "image": "/images/ele.jpeg",
+    "category": "stomach",
+    "price": 125,
+    "mrp": 150,
+    "discount": "17% OFF"
+  },
+  {
+    "id": 22,
+    "name": "Sinarest",
+    "chemicalName": "Paracetamol, Phenylephrine, Chlorpheniramine",
+    "details": "Relieves cold, congestion, and allergies.",
+    "image": "/images/sina.jpeg",
+    "category": "cold-fever",
+    "price": 130,
+    "mrp": 156,
+    "discount": "17% OFF"
+  },
+  {
+    "id": 23,
+    "name": "Montair LC",
+    "chemicalName": "Levocetirizine & Montelukast",
+    "details": "Relieves allergies, sneezing, and breathing issues.",
+    "image": "/images/mon.jpeg",
+    "category": "cold-fever",
+    "price": 135,
+    "mrp": 162,
+    "discount": "17% OFF"
+  },
+  
+  {
+    "id": 24,
+    "name": "Band Aid",
+    "chemicalName": "Adhesive Bandage",
+    "details": "Protects small cuts and wounds.",
+    "image": "/images/band.jpeg",
+    "category": "wound-swelling",
+    "price": 140,
+    "mrp": 168,
+    "discount": "17% OFF"
+  },
+  {
+    "id": 25,
+    "name": "Moov Spray",
+    "chemicalName": "Diclofenac Diethylamine & Menthol",
+    "details": "Pain relief spray for muscle and joint pain.",
+    "image": "/images/mov.png",
+    "category": "wound-swelling",
+    "price": 145,
+    "mrp": 174,
+    "discount": "17% OFF"
+  },
+  
+  {
+    "id": 26,
+    "name": "Vaseline",
+    "chemicalName": "Petroleum Jelly",
+    "details": "Protects and moisturizes dry, chapped skin.",
+    "image": "/images/vase.jpeg",
+    "category": "skin-care",
+    "price": 150,
+    "mrp": 180,
+    "discount": "17% OFF"
+  },
+  {
+    "id": 27,
+    "name": "Vaseline Original",
+    "chemicalName": "Petroleum Jelly",
+    "details": "Protects and moisturizes dry, chapped skin.",
+    "image": "/images/ori.jpg",
+    "category": "skin-care",
+    "price": 155,
+    "mrp": 186,
+    "discount": "17% OFF"
+  },
+  {
+    "id": 28,
+    "name": "Vaseline Cocoa Glow",
+    "chemicalName": "Petroleum Jelly & Cocoa Butter",
+    "details": "Deep nourishment for dull, dry skin with a pleasant cocoa fragrance.",
+    "image": "/images/co.jpg",
+    "category": "skin-care",
+    "price": 160,
+    "mrp": 192,
+    "discount": "17% OFF"
+  },
+  {
+    "id": 29,
+    "name": "Vaseline Intensive Care Aloe Soothe",
+    "chemicalName": "Petroleum Jelly & Aloe Vera Extract",
+    "details": "Soothes and refreshes skin with the goodness of Aloe Vera.",
+    "image": "/images/alo.jpg",
+    "category": "skin-care",
+    "price": 165,
+    "mrp": 198,
+    "discount": "17% OFF"
+  },
+  {
+    "id": 30,
+    "name": "Vaseline Lip Therapy Original",
+    "chemicalName": "Petroleum Jelly",
+    "details": "Protects and moisturizes dry lips.",
+    "image": "/images/lip.jpg",
+    "category": "skin-care",
+    "price": 170,
+    "mrp": 204,
+    "discount": "17% OFF"
+  },
+  {
+    "id": 31,
+    "name": "Vaseline Lip Therapy Rosy Lips",
+    "chemicalName": "Petroleum Jelly & Rose Extract",
+    "details": "Moisturizes lips and leaves a soft pink tint.",
+    "image": "/images/vasel.jpeg",
+    "category": "skin-care",
+    "price": 175,
+    "mrp": 210,
+    "discount": "17% OFF"
+  }
+
+
+
+
+]

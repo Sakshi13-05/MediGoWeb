@@ -1,0 +1,166 @@
+.men-detail-page {
+  padding: 20px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.men-detail-container {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+  align-items: flex-start;
+}
+
+.men-detail-container img {
+  max-width: 320px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.1);
+}
+
+.men-info {
+  flex: 1;
+  min-width: 250px;
+}
+
+/* Price block (same as women card style) */
+.price-block {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 12px 0 16px;
+  flex-wrap: wrap;
+}
+
+.final-price {
+  font-size: 26px;
+  font-weight: 700;
+  color: #2e7d32;
+}
+
+.mrp-strike {
+  text-decoration: line-through;
+  color: #888;
+  font-size: 16px;
+}
+
+.discount-tag {
+  background: #ffefef;
+  color: #d32f2f;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.you-save {
+  color: #2e7d32;
+  font-weight: 500;
+}
+
+.discount {
+  color: #006400;
+  font-weight: bold;
+}
+
+.button-group {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.button-group button {
+  padding: 10px 16px;
+  font-weight: bold;
+  border: none;
+  background-color: #1e3a8a;
+  color: white;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.button-group button:hover {
+  background-color: #1d4ed8;
+  transform: translateY(-1px);
+}
+
+.recommendation-list {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.recommendation-card {
+  border: 1px solid #ccc;
+  padding: 12px;
+  width: 200px;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background-color: #f3f4f6;
+}
+
+.recommendation-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.recommendation-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* ==================== Responsive ==================== */
+
+/* Tablets */
+@media (max-width: 768px) {
+  .men-detail-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .men-detail-container img {
+    max-width: 250px;
+  }
+
+  .men-info {
+    min-width: auto;
+  }
+
+  .button-group {
+    justify-content: center;
+  }
+
+  .recommendation-list {
+    justify-content: center;
+  }
+}
+
+/* Phones */
+@media (max-width: 480px) {
+  .men-detail-page {
+    padding: 10px;
+  }
+
+  .final-price {
+    font-size: 22px;
+  }
+
+  .men-detail-container img {
+    max-width: 200px;
+  }
+
+  .button-group {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .recommendation-card {
+    width: 100%;
+    max-width: 180px;
+  }
+}

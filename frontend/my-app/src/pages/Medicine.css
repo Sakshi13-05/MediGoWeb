@@ -1,0 +1,54 @@
+.medicine-page .search-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  background-color: #f8f9fa;
+}
+
+.medicine-page .input-container {
+  position: relative;
+  width: 60%;
+}
+
+.medicine-page .real-input {
+  width: 100%;
+  padding: 15px 20px;
+  font-size: 18px;
+  border: 2px solid #00b894;
+  border-radius: 8px;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: white;
+  color: #2d3436;
+  z-index: 2;
+  position: relative;
+  caret-color: #00b894;
+}
+
+.medicine-page .custom-placeholder {
+  position: absolute;
+  left: 25px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: #aaa;
+  pointer-events: none;
+  z-index: 3;
+  transition: opacity 0.3s ease-in-out;
+  font-family: 'Segoe UI', sans-serif;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.medicine-page .try-text {
+  color: #00b894;
+  font-weight: 600;
+}
+
+.medicine-page .fade-in {
+  opacity: 1;
+}
+
+.medicine-page .fade-out {
+  opacity: 0;
+}

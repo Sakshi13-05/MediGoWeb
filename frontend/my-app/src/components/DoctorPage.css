@@ -1,0 +1,14 @@
+.doctor-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 30px 50px;
+  justify-items: center;
+}
+
+@media (max-width: 600px) {
+  .doctor-grid {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    padding: 20px;
+  }
+}

@@ -1,0 +1,144 @@
+.elder-detail-page {
+  padding: 20px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.elder-detail-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.elder-detail-container img {
+  max-width: 320px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.1);
+}
+
+.elder-info {
+  flex: 1;
+  min-width: 250px;
+}
+
+/* Price & Discount block */
+.price-block {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.final-price {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2e7d32;
+}
+
+.mrp {
+  text-decoration: line-through;
+  color: gray;
+  font-size: 14px;
+}
+
+.discount {
+  color: green;
+  font-weight: bold;
+}
+
+.you-save {
+  color: #2e7d32;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.button-group button {
+  padding: 8px 14px;
+  border: none;
+  background: #1e3a8a;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.button-group button:hover {
+  background: #1d4ed8;
+}
+
+.recommendation-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.recommendation-card {
+  background: #f9f9f9;
+  padding: 10px;
+  text-align: center;
+  border-radius: 8px;
+  width: 150px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.recommendation-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.recommendation-card img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+/* ==================== Responsive ==================== */
+@media (max-width: 768px) {
+  .elder-detail-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .elder-detail-container img {
+    max-width: 250px;
+  }
+
+  .button-group {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 480px) {
+  .elder-detail-page {
+    padding: 10px;
+  }
+
+  .final-price {
+    font-size: 20px;
+  }
+
+  .elder-detail-container img {
+    max-width: 200px;
+  }
+
+  .button-group {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .recommendation-card {
+    width: 100%;
+    max-width: 160px;
+  }
+}

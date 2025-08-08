@@ -1,0 +1,25 @@
+.hero-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+  background: linear-gradient(to right, #e6f9f7, #ffffff);
+  border-radius: 12px;
+  margin: 20px;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  color: #0a776e;
+}
+
+.hero-text p {
+  font-size: 1.1rem;
+  margin-top: 10px;
+  color: #333;
+}
+
+.hero-image img {
+  max-width: 400px;
+  border-radius: 20px;
+}

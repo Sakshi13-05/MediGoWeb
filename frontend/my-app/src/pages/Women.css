@@ -1,0 +1,55 @@
+.women-page__search {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  background-color: #f8f9fa;
+}
+
+.women-page__input-container {
+  position: relative;
+  width: 60%;
+}
+
+.women-page__input {
+  width: 100%;
+  padding: 15px 20px;
+  font-size: 18px;
+  font-family: 'Segoe UI', sans-serif;
+  font-style: normal;
+  border: 2px solid #00b894;
+  border-radius: 8px;
+  background-color: white;
+  color: #2d3436;
+  caret-color: #00b894;
+  z-index: 2;
+}
+
+.women-page__placeholder {
+  position: absolute;
+  left: 25px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: #aaa;
+  pointer-events: none;
+  z-index: 3;
+  font-family: 'Segoe UI', sans-serif;
+  font-style: normal;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.women-page__placeholder--visible {
+  opacity: 1;
+}
+
+.women-page__placeholder--hidden {
+  opacity: 0;
+}
+
+.women-page__try-text {
+  color: #00b894;
+  font-weight: 600;
+}

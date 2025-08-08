@@ -1,0 +1,51 @@
+.feature-row-wrapper {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  padding: 30px 0;
+}
+
+.feature-row {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1100px;
+  width: 100%;
+}
+
+.feature-card {
+  text-align: center;
+  width: 110px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.feature-card:hover {
+  transform: scale(1.07);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  background-color: #f7fdfd;
+}
+
+.feature-img {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  margin-bottom: 8px;
+}
+
+.feature-title {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+  color: #2d3436;
+}
+
+.feature-offer {
+  color: #d63031;
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 4px;
+}

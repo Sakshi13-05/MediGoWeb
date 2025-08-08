@@ -1,0 +1,59 @@
+.banner-wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 20px auto;
+  overflow: hidden;
+}
+
+.banner-swiper {
+  width: 100%;
+}
+
+.banner-slide {
+  position: relative;
+}
+
+.banner-img {
+  width: 100%;
+  height: auto;
+  max-height: 150px; /* Keeps it short like PharmEasy */
+  object-fit: contain; /* Shows full image */
+  display: block;
+  border-radius: 8px;
+}
+
+.banner-text {
+  position: absolute;
+  bottom: 10px;
+  left: 16px;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 6px 12px;
+  border-radius: 6px;
+  max-width: 90%;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .banner-img {
+    max-height: 120px; /* Reduce banner height */
+  }
+  .banner-text {
+    font-size: 16px;
+    padding: 5px 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner-img {
+    max-height: 100px;
+  }
+  .banner-text {
+    font-size: 14px;
+    padding: 4px 8px;
+    bottom: 6px;
+    left: 10px;
+  }
+}

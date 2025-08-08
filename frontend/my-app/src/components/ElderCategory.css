@@ -1,0 +1,72 @@
+.men-category-container {
+  padding: 20px;
+}
+
+.men-category-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.men-product-card {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s ease;
+  width: 180px;
+}
+
+.men-product-card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.men-product-card img {
+  max-width: 100px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.men-product-card:hover img {
+  transform: scale(1.05);
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .men-category-list {
+    gap: 15px;
+  }
+
+  .men-product-card {
+    width: 150px;
+    padding: 12px;
+  }
+
+  .men-product-card img {
+    max-width: 90px;
+  }
+}
+
+@media (max-width: 480px) {
+  .men-category-container {
+    padding: 10px;
+  }
+
+  .men-category-list {
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .men-product-card {
+    width: 100%;
+    max-width: 220px;
+    padding: 10px;
+  }
+
+  .men-product-card img {
+    max-width: 80px;
+  }
+}
