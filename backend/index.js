@@ -8,33 +8,7 @@ app.use(cors());
 
 dotenv.config();
 
-const HF_API_URL = "https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.1";
 
-app.post('/api/chat', async (req, res) => {
-  const { message } = req.body;
-
-  try {
-    const response = await axios.post(
-      HF_API_URL,
-      {
-        inputs: `Suggest advice for the following symptoms:\n${message}`,
-      },
-      {
-        headers: {
-          Authorization: `Bearer ${process.env.HUGGINGFACE_API_TOKEN}`,
-          'Content-Type': 'application/json',
-        },
-      }
-    );
-
-    const botReply = response.data?.[0]?.generated_text || "Sorry, I couldn't understand your symptoms.";
-    res.json({ reply: botReply });
-
-  } catch (err) {
-    console.error("API Error:", err.message);
-    res.status(500).json({ reply: "Sorry, I couldn’t process your request." });
-  }
-});
 
 
 // ---- CONFIG ----
