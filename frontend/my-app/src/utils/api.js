@@ -2,7 +2,7 @@
 import axios from "axios";
 
 // You can configure API base URL (fallback is localhost)
-export const API_BASE = import.meta.env.VITE_API_BASE_URL || "https://medigoweb.onrender.com";
+export const API_BASE = import.meta.env.VITE_API_BASE_URL || "https://medigoweb-4.onrender.com";
 
 export const api = axios.create({
   baseURL: API_BASE, // All requests will automatically prefix this URL
