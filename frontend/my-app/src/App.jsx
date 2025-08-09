@@ -3,8 +3,6 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import {ToastContainer}  from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-
-
 import Header from "./components/Header";
 import CategoryNav from "./components/CategoryNav";
 import Login from "./components/Login";
@@ -62,12 +60,19 @@ function App() {
     <BrowserRouter>
       <AuthContext.Provider value={{ user, setUser }}>
         <Header
-          openLogin={() => {
-            setShowLogin(true);
-            document.body.classList.add("noscroll");
-          }}
-          user={user}
-        />
+          
+  openLogin={() => {
+    setShowLogin(true);
+    document.body.classList.add("noscroll");
+  }}
+  user={user}
+  logout={() => {
+    localStorage.removeItem("user");
+    setUser(null);
+  }}
+
+/>
+          
         <CategoryNav />
 
         <div className={`page-content ${showLogin ? "blurred" : ""}`}>
@@ -121,29 +126,31 @@ function App() {
 
       {/* Login Popup */}
       {showLogin && (
-        <div className="login-overlay">
-          <div className="login-wing">
-            <button
-              className="close-btn"
-              onClick={() => {
-                setShowLogin(false);
-                document.body.classList.remove("noscroll");
-              }}
-            >
-              X
-            </button>
-            <Login
-              setUser={(userData)=>{
-                  localStorage.setItem("user",JSON.stringify(userData));
-              }}
-              closeLogin={() => {
-                setShowLogin(false);
-                document.body.classList.remove("noscroll");
-              }}
-            />
-          </div>
-        </div>
-      )}
+  <div className="login-overlay">
+    <div className="login-wing">
+      <button
+        className="close-btn"
+        onClick={() => {
+          setShowLogin(false);
+          document.body.classList.remove("noscroll");
+        }}
+      >
+        X
+      </button>
+      <Login
+        setUser={(userData) => {
+          setUser(userData);
+          localStorage.setItem("user", JSON.stringify(userData));
+        }}
+        closeLogin={() => {
+          setShowLogin(false);
+          document.body.classList.remove("noscroll");
+        }}
+      />
+    </div>
+  </div>
+)}
+
       </AuthContext.Provider>
     </BrowserRouter>
     
